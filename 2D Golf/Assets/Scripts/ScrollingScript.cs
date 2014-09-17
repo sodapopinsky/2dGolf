@@ -20,6 +20,7 @@ public class ScrollingScript : MonoBehaviour {
 	void Update () {
 	
 		// Movement
+		/*
 		Vector3 movement = new Vector3(
 			speed.x * direction.x,
 			speed.y * direction.y,
@@ -29,6 +30,6 @@ public class ScrollingScript : MonoBehaviour {
 		Camera.main.transform.Translate(movement);
 		background.transform.Translate(movement);
 
-
+*/
 	}
 }

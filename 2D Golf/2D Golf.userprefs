@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Club.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ScrollingScript.cs" Line="27" Column="7" />
+      <File FileName="Assets/Scripts/CameraScript.cs" Line="10" Column="8" />
+      <File FileName="Assets/Scripts/Club.cs" Line="18" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
