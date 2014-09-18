@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\Bag.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Club.cs" />
+     <Compile Include="Assets\Scripts\ClubSelection.cs" />
+     <Compile Include="Assets\Scripts\GUIManager.cs" />
      <Compile Include="Assets\Scripts\ScrollingScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

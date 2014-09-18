@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Club.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GUIManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/ScrollingScript.cs" Line="27" Column="7" />
-      <File FileName="Assets/Scripts/CameraScript.cs" Line="10" Column="8" />
-      <File FileName="Assets/Scripts/Club.cs" Line="18" Column="15" />
+      <File FileName="Assets/Scripts/ClubSelection.cs" Line="19" Column="4" />
+      <File FileName="Assets/Scripts/GUIManager.cs" Line="6" Column="1" />
+      <File FileName="Assets/Scripts/CameraScript.cs" Line="48" Column="3" />
+      <File FileName="Assets/Scripts/Bag.cs" Line="23" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

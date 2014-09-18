@@ -8,11 +8,15 @@ public class CameraScript : MonoBehaviour {
 	private enum View
 	{
 		Shot,
-		Plan
+		Plan,
+		Shooting
 	}
 
 	public Transform sky;
 	public Transform ball;
+	
+	public GUIManager mainGUIManager;
+
 
 	public float mainOrthographicSize = 20.0f;
 	public float cameraX = 23.1f;
@@ -20,9 +24,11 @@ public class CameraScript : MonoBehaviour {
 	public float test = 23.1f;
 	private static View currentView = View.Plan;
 
-
+	
 	// Use this for initialization
 	void Start () {
+
+		Camera.main.gameObject.AddComponent ("GUIManager");
 		Vector3 newPos = Camera.main.transform.position;
 		newPos.x = cameraX;
 		newPos.y = cameraY;
@@ -30,22 +36,12 @@ public class CameraScript : MonoBehaviour {
 		Camera.main.orthographicSize = mainOrthographicSize;
 		resizeBG ();
 
-		new Bag ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-	
-	}
 
-	void OnGUI() {
-
-		if (GUI.Button (new Rect (10, 0, 150, 50), "Shot"))
-				goShotView ();
-	if (GUI.Button (new Rect (10, 60, 150, 50), "Plan"))
-				goPlanView ();
-		
 	}
 
 	private void goShotView(){
